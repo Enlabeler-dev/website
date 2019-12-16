@@ -36,9 +36,9 @@
 
     <link rel="shortcut icon" type="image/ico" href="./favicon.ico"/>
 
-    <title>Cape Town AI - Knowledge graphs</title>
+    <title>Enlabeler - Services</title>
   </head>
-  <body class="bg-light">
+  <body class="pt-10">
 
     <!-- MODALS
     ================================================== -->
@@ -46,8 +46,8 @@
     
     <!-- NAVBAR
     ================================================== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white border-bottom">
+      
 
         <!-- Brand -->
         <a class="navbar-brand" href="./index.html">
@@ -143,72 +143,10 @@
                 </div> <!-- / .row -->
               </div>
             </li>  
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link" id="navbarLandings" href="./datalabeling.html">
                 Data Labeling?
               </a>
-              <div class="dropdown-menu dropdown-menu-xl p-0" aria-labelledby="navbarLandings">
-                <div class="row no-gutters">
-                  <div class="col-12 col-lg-6">
-                    <div class="dropdown-img-left" style="background-image: url(./assets/img/covers/cover-7.jpg);">
-
-                      <!-- Heading -->
-                      <h4 class="font-weight-bold text-white mb-0">
-                        Do you have a case?
-                      </h4>
-
-                      <!-- Text -->
-                      <p class="font-size-sm text-white">
-                        Pro-bono cases for good
-                      </p>
-
-                      <!-- Button -->
-                      <a href="./partner.html" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
-                        Become a partner
-                      </a>
-                  
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6">
-                    <div class="dropdown-body">
-                      <div class="row no-gutters">
-                        <div class="col-6">
-
-                          <!-- Heading -->
-                          <h6 class="dropdown-header">
-                            Internal
-                          </h6>
-
-                          <!-- List -->
-                          <a class="dropdown-item" href="./enlabeler.html">
-                            Enlabeler
-                          </a>
-                          <a class="dropdown-item" href="./knowledgegraphs.html">
-                            Knowledge graphs
-                          </a>
-                          <a class="dropdown-item mb-5" href="./wildlife.html">
-                            Wildlife
-                          </a>
-
-                          <!-- Heading -->
-                          <h6 class="dropdown-header">
-                            Client
-                          </h6>
-
-                          <!-- List -->
-                          <a class="dropdown-item" href="./security.html">
-                            Security
-                          </a>
-                          <a class="dropdown-item" href="./supplychain.html">
-                            Supply chain
-                          </a>
-
-                        </div>
-                      </div> <!-- / .row -->
-                    </div>
-                  </div>
-                </div> <!-- / .row -->
-              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
@@ -237,13 +175,13 @@
                     </h6>
 
                     <!-- List -->
-                    <a class="dropdown-item" href="./datascientist.html">
-                      Data scientist
+                    <a class="dropdown-item" href="./datalabeler.html">
+                      Data labeler
                     </a>
-                    <a class="dropdown-item" href="./dataengineer.html">
-                      Data engineer
+                    <a class="dropdown-item" href="./datalabeler.html">
+                      Operations manager
                     </a>
-                    <a class="dropdown-item mb-5" href="./internship.html">
+                    <a class="dropdown-item mb-5" href="./datalabeler.html">
                       Internship
                     </a>     
 
@@ -289,7 +227,7 @@
                     </div>
 
                   </a>
-                  <a class="list-group-item" href="./about.html">
+                  <a class="list-group-item" href="./partnerships.html">
                 
                     <!-- Icon -->
                     <div class="icon icon-sm text-dark">
@@ -321,7 +259,7 @@
                     </div>
 
                   </a>
-                  <a class="list-group-item" href="./about.html">
+                  <a class="list-group-item" href="./community.html">
                 
                     <!-- Icon -->
                     <div class="icon icon-sm text-dark">
@@ -399,32 +337,209 @@
 
         </div>
   
-      </div>
+      
     </nav>
 
     <!-- WELCOME
     ================================================== -->
-    <section class="pt-4 pt-md-11">
+    <section class="pt-8 pb-11 pt-md-9 pb-md-12 py-lg-14 bg-light bg-between" style="background-image: url(assets/img/illustrations/illustration-6-cropped.png), url(assets/img/illustrations/illustration-4-cropped.png);">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-5 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+
+            <!-- Image (mobile) -->
+            <img src="assets/img/illustrations/illustration-6.png" alt="..." class="img-fluid mb-6 d-lg-none">
             
-            <!-- Image -->
-            <img src="assets/img/photos/network.png" class="img-fluid mb-6 mb-md-0" alt="...">
+            <!-- Heading -->
+            <h1 class="display-2 font-weight-bold">
+              What is<br />
+              data labeling?
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-6 mb-md-8">
+              Data is the new gold. Big data, data science, machine learning, Artificial Intelligence are all trending topics we hear about each day. But how do these AI algorithms and machine learning models actually work? What makes the computer or system recognize different types of data, apply a logic to it, and do the actual task that we expect from them?
+              <br /><br />
+              All companies (big or small) are reliant on pools of data these days (customer loyalty data, financial data, video footage, production data or different types to recognize speech/voice). Most companies work with (teams of) data scientists/analysts. What we find is that the basic labeling work for these ML algorithms to work properly - still needs to be validated (or labeled) manually. That’s why Enlabeler offers different type of data annotation, data structuring and data labeling services to an array of (international) clients.
+            </p>
+
+            <!-- Button -->
+            <a href="./contact.html" class="btn btn-primary mr-1 lift">
+              Get in touch <i class="fe fe-arrow-right ml-3"></i>
+            </a>
+            <a href="./services.html" class="btn btn-primary-soft lift">
+              Our services
+            </a>
 
           </div>
-          <div class="col-12 col-md-7 order-md-1">
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- VIDEO
+    ================================================== -->
+    <section class="py-12 py-md-13 bg-cover" id="watchvideo" style="background-image: url(assets/img/photos/townshipjoburg.jpg);">
+      <div class="container py-md-13">
+        <div class="row">
+          <div class="col-12 text-center">
+            
+            <!-- Button -->
+            <a href="https://www.youtube.com/watch?v=sBrqevXoGow" class="btn btn-pill btn-white text-body shadow lift" data-fancybox>
+              <span class="h6 text-uppercase font-weight-bold"><i class="fe fe-play mr-2"></i> Watch video</span>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FEATURES
+    ================================================== -->
+    <section class="py-8 py-md-11" id="locations">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4" data-aos="fade-up">
+            
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+                  <title>Stockholm-icons / Navigation / Angle-double-down</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Stockholm-icons-/-Navigation-/-Angle-double-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                      <path d="M8.2928955,3.20710089 C7.90237121,2.8165766 7.90237121,2.18341162 8.2928955,1.79288733 C8.6834198,1.40236304 9.31658478,1.40236304 9.70710907,1.79288733 L15.7071091,7.79288733 C16.085688,8.17146626 16.0989336,8.7810527 15.7371564,9.17571874 L10.2371564,15.1757187 C9.86396402,15.5828377 9.23139665,15.6103407 8.82427766,15.2371482 C8.41715867,14.8639558 8.38965574,14.2313885 8.76284815,13.8242695 L13.6158645,8.53006986 L8.2928955,3.20710089 Z" id="Path-94" fill="#335EEA" transform="translate(12.000003, 8.499997) scale(-1, -1) rotate(-90.000000) translate(-12.000003, -8.499997) "></path>
+                      <path d="M6.70710678,19.2071045 C6.31658249,19.5976288 5.68341751,19.5976288 5.29289322,19.2071045 C4.90236893,18.8165802 4.90236893,18.1834152 5.29289322,17.7928909 L11.2928932,11.7928909 C11.6714722,11.414312 12.2810586,11.4010664 12.6757246,11.7628436 L18.6757246,17.2628436 C19.0828436,17.636036 19.1103465,18.2686034 18.7371541,18.6757223 C18.3639617,19.0828413 17.7313944,19.1103443 17.3242754,18.7371519 L12.0300757,13.8841355 L6.70710678,19.2071045 Z" id="Path-94" fill="#335EEA" opacity="0.3" transform="translate(12.000003, 15.499997) scale(-1, -1) rotate(-360.000000) translate(-12.000003, -15.499997) "></path>
+                  </g>
+              </svg>
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              Example 1 Fox
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Here example 1
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+                  <title>Stockholm-icons / Navigation / Angle-double-down</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Stockholm-icons-/-Navigation-/-Angle-double-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                      <path d="M8.2928955,3.20710089 C7.90237121,2.8165766 7.90237121,2.18341162 8.2928955,1.79288733 C8.6834198,1.40236304 9.31658478,1.40236304 9.70710907,1.79288733 L15.7071091,7.79288733 C16.085688,8.17146626 16.0989336,8.7810527 15.7371564,9.17571874 L10.2371564,15.1757187 C9.86396402,15.5828377 9.23139665,15.6103407 8.82427766,15.2371482 C8.41715867,14.8639558 8.38965574,14.2313885 8.76284815,13.8242695 L13.6158645,8.53006986 L8.2928955,3.20710089 Z" id="Path-94" fill="#335EEA" transform="translate(12.000003, 8.499997) scale(-1, -1) rotate(-90.000000) translate(-12.000003, -8.499997) "></path>
+                      <path d="M6.70710678,19.2071045 C6.31658249,19.5976288 5.68341751,19.5976288 5.29289322,19.2071045 C4.90236893,18.8165802 4.90236893,18.1834152 5.29289322,17.7928909 L11.2928932,11.7928909 C11.6714722,11.414312 12.2810586,11.4010664 12.6757246,11.7628436 L18.6757246,17.2628436 C19.0828436,17.636036 19.1103465,18.2686034 18.7371541,18.6757223 C18.3639617,19.0828413 17.7313944,19.1103443 17.3242754,18.7371519 L12.0300757,13.8841355 L6.70710678,19.2071045 Z" id="Path-94" fill="#335EEA" opacity="0.3" transform="translate(12.000003, 15.499997) scale(-1, -1) rotate(-360.000000) translate(-12.000003, -15.499997) "></path>
+                  </g>
+              </svg>
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              Example 2 - Car
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Text
+            </p>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+              
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+                  <title>Stockholm-icons / Navigation / Angle-double-down</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="Stockholm-icons-/-Navigation-/-Angle-double-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                      <path d="M8.2928955,3.20710089 C7.90237121,2.8165766 7.90237121,2.18341162 8.2928955,1.79288733 C8.6834198,1.40236304 9.31658478,1.40236304 9.70710907,1.79288733 L15.7071091,7.79288733 C16.085688,8.17146626 16.0989336,8.7810527 15.7371564,9.17571874 L10.2371564,15.1757187 C9.86396402,15.5828377 9.23139665,15.6103407 8.82427766,15.2371482 C8.41715867,14.8639558 8.38965574,14.2313885 8.76284815,13.8242695 L13.6158645,8.53006986 L8.2928955,3.20710089 Z" id="Path-94" fill="#335EEA" transform="translate(12.000003, 8.499997) scale(-1, -1) rotate(-90.000000) translate(-12.000003, -8.499997) "></path>
+                      <path d="M6.70710678,19.2071045 C6.31658249,19.5976288 5.68341751,19.5976288 5.29289322,19.2071045 C4.90236893,18.8165802 4.90236893,18.1834152 5.29289322,17.7928909 L11.2928932,11.7928909 C11.6714722,11.414312 12.2810586,11.4010664 12.6757246,11.7628436 L18.6757246,17.2628436 C19.0828436,17.636036 19.1103465,18.2686034 18.7371541,18.6757223 C18.3639617,19.0828413 17.7313944,19.1103443 17.3242754,18.7371519 L12.0300757,13.8841355 L6.70710678,19.2071045 Z" id="Path-94" fill="#335EEA" opacity="0.3" transform="translate(12.000003, 15.499997) scale(-1, -1) rotate(-360.000000) translate(-12.000003, -15.499997) "></path>
+                  </g>
+              </svg>
+            </div>
+
+            <!-- Heading -->
+            <h3>
+              Example 3 - Car
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Text
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="pt-4 pt-md-11 py-8 py-md-11">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="">
 
             <!-- Heading -->
             <h1 class="display-4">
-              Knowledge graph and <br />
-              <span class="text-primary">biomedical</span> text mining
+              Use cases
             </h1>
 
             <!-- Text -->
             <p class="lead text-muted mb-0">
-              With a team of interns we are mining biomedical research papers. The data extracted via natural language processing is stored as a graph and used to model diseases and their causes.
-              Please get in touch if you would like to apply these techniques in your domain.
+              At Enlabeler we’re always looking for new use cases of data labeling ! Pls send us your needs and we’ll come back to you with our options.
+              <br /><br />
+              Below you can find an overview of data annotation or data labeling work projects.  We’ve split the different projects according to the need for labeling of images (blue), text (green), voice (Yellow) and video (red).
+              <br /><br />
+              Drone Imagery: Annotation of images for AgriTech, Oil & Gas, security or industrial purposes
+              <br /><br />
+              Insurance (images)
+              Using computer vision to train models detecting damage on a vehicle
+              Identification of license plates for safety
+              <br /><br />
+              Customer service bots are widely used within the industry. Improving them will prove vital for natural conversation between the bot and your customer. Enlabeler can help classify the different text messages to ensure the right tone of voice and a quick response to your customers (text) 
+              <br /><br />
+              Human Resources (text). In order to extract valuable data from CV’s, Machine learning models need some first help in classification of the valuable elements on each resume, this can also help predict the suitability of candidates. And once hired, of the likelihood of your employees staying (attrition prediction). Another use case is transcribing interviews.
+              <br /><br />
+              Finance industry (text, imagery)
+              By extracting valuable data from bank statements your company can analyze consumer spending and advise better choices. Enlabeler can support you with this.
+              Creating a way to verify customers from photo
+              <br /><br />
+              Call Center (audio)
+                Enlabeler can assist your company with different forms of audio-annotation, such as:
+              Transcribe audio calls to analyze customer behavior
+              Translate call transcriptions 
+              Identify the speaker
+              <br /><br />
+              Sports analytics (video)
+              ……….
+              <br /><br />
+              Security (video)
+              Enlabeler has worked with a few security companies, who are interested in analysing their footage - especially at night. Labeling the objects for easier detection, and identification of suspicious behaviour will make the ML models work better.
+
             </p>
 
           </div>
@@ -434,8 +549,8 @@
 
     <!-- SHAPE
     ================================================== -->
-    <div class="position-relative pt-md-12">
-      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"/>
         </svg>
@@ -444,7 +559,7 @@
 
     <!-- FOOTER
     ================================================== -->
-    <footer class="py-8 py-md-11 bg-gray-200">
+    <footer class="py-8 py-md-11 bg-dark">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4 col-lg-3">
@@ -455,12 +570,12 @@
             <!-- Social -->
             <ul class="list-unstyled list-inline list-social mb-6 mb-md-0 mx-2">
               <li class="list-inline-item list-social-item mr-3">
-                <a href="https://www.instagram.com/capetown.ai" class="text-decoration-none" target="_blank">
+                <a href="https://www.instagram.com/enlabeler_platform" class="text-decoration-none" target="_blank">
                   <img src="./assets/img/icons/social/instagramctai.png" class="list-social-icon" alt="...">
                 </a>
               </li>
               <li class="list-inline-item list-social-item mr-3">
-                <a href="https://www.linkedin.com/company/35484789" class="text-decoration-none" target="_blank">
+                <a href="https://www.linkedin.com/company/enlabeler" class="text-decoration-none" target="_blank">
                   <img src="./assets/img/icons/social/linkedinctai.png" class="list-social-icon" alt="...">
                 </a>
               </li>
@@ -477,22 +592,22 @@
             <!-- List -->
             <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               <li class="mb-3">
-                <a href="./strategy.html" class="text-reset">
+                <a href="./services.html#locations" class="text-reset">
                   Locations
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./squads.html" class="text-reset">
+                <a href="./services.html#intake" class="text-reset">
                   Intake
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./academy.html" class="text-reset">
+                <a href="./services.html#quality" class="text-reset">
                   Quality
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./academy.html" class="text-reset">
+                <a href="./services.html#pricing" class="text-reset">
                   Pricing
                 </a>
               </li>
@@ -509,7 +624,7 @@
             <!-- List -->
             <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               <li class="mb-3">
-                <a href="./partner.html" class="text-reset">
+                <a href="./datalabeling.html" class="text-reset">
                   About labeling
                 </a>
               </li>
@@ -531,17 +646,17 @@
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./datascientist.html" class="text-reset">
+                <a href="./datalabeler.html" class="text-reset">
                   Data labeler
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./dataengineer.html" class="text-reset">
+                <a href="./datalabeler.html" class="text-reset">
                   Operations manager
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./internship.html" class="text-reset">
+                <a href="./datalabeler.html" class="text-reset">
                   Internship
                 </a>
               </li>
@@ -563,12 +678,12 @@
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./blog.html" class="text-reset">
+                <a href="./partnerships.html" class="text-reset">
                   Partnerships
                 </a>
               </li>
               <li class="mb-3">
-                <a href="./blog.html" class="text-reset">
+                <a href="./community.html" class="text-reset">
                   Community
                 </a>
               </li>
